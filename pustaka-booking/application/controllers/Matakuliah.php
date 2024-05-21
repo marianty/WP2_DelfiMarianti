@@ -5,13 +5,13 @@
     {
     $this->load->view('view-form-matakuliah');
     }
-    public function cetak()
-    {
-        $this->form_validation->set_rules('kode', 'Kode Matakuliah', 
-    'required|min_length[3]', [
-    'required' => 'Kode Matakuliah Harus diisi',
-    'min_lenght' => 'Kode terlalu pendek'
-    ]);
+    // public function cetak()
+    // {
+    //     $this->form_validation->set_rules('kode', 'Kode Matakuliah', 
+    // 'required|min_length[3]', [
+    // 'required' => 'Kode Matakuliah Harus diisi',
+    // 'min_lenght' => 'Kode terlalu pendek'
+    // ]);
     $this->form_validation->set_rules('nama', 'Nama Matakuliah', 
     'required|min_length[3]', [
     'required' => 'Nama Matakuliah Harus diisi',
